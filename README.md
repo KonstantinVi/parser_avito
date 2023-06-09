@@ -11,6 +11,6 @@ AVITO парсер | v.00.01
 + Библиотека webdriver_manager 
 ---
 
-Преостановлена разарботка.\
+Приостановлена разработка.\
 Появилась несовместимость с новым драйвером Google Chrome\
 WebDriver.__init__() got an unexpected keyword argument 'executable_path'
