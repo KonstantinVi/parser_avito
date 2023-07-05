@@ -1,3 +1,5 @@
+"""AVITO Parser. ver. 1.0."""
+
 from selenium import webdriver
 import undetected_chromedriver as uc
 import chromedriver_autoinstaller
@@ -10,12 +12,12 @@ chromedriver_autoinstaller.install()
 # then add chromedriver to path
 
 
-
 class MainParser:
     def _url_request_creation(self, url, parameter):
         """Создание url запроса.
         :param url: [str] Ресурс.
         :param parameter: [list] Перечисление параметров поиска.
+        :return: url: [str]
         """
         if parameter is not None:
             ad_param = list(map(str, parameter))
