@@ -8,6 +8,7 @@ bin-release/
 .settings/
 /VENV
 .idea
+data_parse
 
 # Executables
 *.swf

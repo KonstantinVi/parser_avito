@@ -13,3 +13,6 @@ AVITO парсер | v.00.01 \
 + Библиотека webdriver_manager 
 ---
 
+#### Пример запроса:
+url = 'https://www.avito.ru/'  
+MainParser(url, ['бесплатно', 'телевизор'], 10).parser()
